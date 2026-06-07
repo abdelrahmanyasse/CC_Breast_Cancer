@@ -8,6 +8,6 @@ def build_model():
         keras.layers.Dense(10,activation='relu'),
         keras.layers.Dense(2,activation='softmax')
         ])
-    
-    
+
+
     return model
